@@ -17,8 +17,9 @@ li{
 }
 
 div.bottom{
+  margin-left: 4%;
   display: inline-block;
-  width: 45%;
+  width: 44%;
   vertical-align: top;
 }
 
@@ -27,4 +28,9 @@ footer{
   text-align: center;
   color: grey;
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+a:visited
+{
+  color: green;
 }
