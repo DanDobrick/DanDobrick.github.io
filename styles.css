@@ -50,6 +50,7 @@ aside{
   display: inline-block;
   width: 18%;
   vertical-align: top;
+  min-width: 18%;
 }
 
 aside h2{
@@ -70,7 +71,20 @@ footer{
     height:100%;
     padding:2%;
   }
-  h1{
+  main{
+    display: block;
+    width:100%;
+  }
+    aside{
+    display: block;
+    width: 100%;
+  }
+  section{
+    width: 100%;
+  }
+
+@media screen and (max-width: 400px){
+   h1{
     font-size: 1.5em;
   }
   h2{
@@ -79,13 +93,4 @@ footer{
   h3{
     font-size: 1em;
   }
-  main{
-    display: block;
-    width:100%;
-  }
-  aside{
-    display:block;
-    width:100%;
-  }
-
 }
