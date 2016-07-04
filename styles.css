@@ -25,6 +25,8 @@ h1 {
 
 img{
   display:inline-block;
+  width: inherit;
+  height: inherit;
 }
 img#wotr{
   border: 2px solid black;
@@ -62,6 +64,9 @@ aside h2{
 
 footer{
   background: rgba(0,0,0,.5);
+  width:75%;
+  padding-right:5px;
+  padding-left:5px;
   font-size: 80%;
   text-align: center;
   color: grey;
