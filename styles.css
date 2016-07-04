@@ -1,5 +1,5 @@
 html{
-    background-image:url("images/background.jpg");
+  background-image:url("images/background.jpg");
 }
 body{
   font-family: "Arial", Helvetica, sans-serif;
@@ -61,6 +61,7 @@ aside h2{
 }
 
 footer{
+  background: rgba(0,0,0,.5);
   font-size: 80%;
   text-align: center;
   color: grey;
@@ -75,23 +76,20 @@ footer{
     padding:2%;
   }
   main{
-    display: block;
-    width:100%;
+    display:block;
+    width:98%;
+    margin: auto;
   }
   aside{
-    display: block;
+    display:block;
     width: 100%;
   }
   section{
     width: 100%;
   }
 
-  ul{
-    margin-left: -4%;
-  }
-
   ul li{
-    margin-left: -5%;
+    margin-left: -4%;
   }
 
   @media screen and (max-width: 400px){
