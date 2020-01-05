@@ -9,6 +9,13 @@ body {
   background-attachment: fixed;
 }
 
+footer {
+  text-align: center;
+  color: black;
+  width: 50%;
+  margin: auto;
+}
+
 h1 {
   text-align: center;
   padding: .5em;
