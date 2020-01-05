@@ -1,15 +1,15 @@
-body{
+body {
   background-color: #505050;
-  background-image: url('ansel.jpeg'); 
+  background-image: url('images/ansel.jpeg'); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;;*/
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-h1{
+h1 {
   text-align: center;
   padding: .5em;
   color: white;
@@ -21,6 +21,7 @@ h1{
   border: 1px solid #605F5F;
   border-radius: 4px;
 }
+
 h1, h2, h3 {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
@@ -46,7 +47,7 @@ p {
   padding: 3px;
 }
 
-iframe{
+iframe {
   display: block;
   width: 850px;
   border: none;
@@ -125,7 +126,7 @@ iframe{
   display: none;
 }
 
-#portfolio img{
+#portfolio img {
   display: inline-block;
   padding: 1em;
   width: 50%;
@@ -137,12 +138,19 @@ iframe{
 }
 
 @media only screen and (max-width: 500px) {
-    iframe{
+    iframe {
       display: none;
     }
-    .resume-link{
+
+    .resume-link {
       display: inline;
     }
+
+    body {
+       background-image: url('images/mobile-ansel.jpeg'); 
+    }
+
+    /* TODO: Add mobile-only styling */
 }
 
 
