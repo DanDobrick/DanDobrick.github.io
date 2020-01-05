@@ -1,102 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Boardgames! They're fun, I promise.</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniel Dobrick - Software Engineer</title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="assets/scripts.js"></script>
+
+  <link rel="stylesheet" href="assets/normalize.css">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel='shortcut icon' href='assets/favicon.ico' type='image/x-icon'/ >
 </head>
-
 <body>
-  <main>
-    <h1>Overview of Modern Board Games</h1>
-    <p>
-      Modern board games are a far cry from the time of Monopoly, Chutes and Ladders and Dungeons and Dragons; there are tens of thousands of different boardgames that cater to various interests. One of the best things about board games is the interactivity that is inherent in playing them; not only are you getting to play a fun game, but you are also spending time with someone in your life. 
-    </p>
-    <p>
-      Right now is the perfect time to get into the hobby of board gaming because there are more games than there have been in the past, and they are more available than ever. If you live nearby a medium-sized metropolitan area, there most likely is a store where you can purchase games and ask questions about what kind of games are right for you. If you <em>don't</em> live in an area with a game store, there are various resources on line that you can access such as <a href="http://boardgamegeek.com/">Board Game Geek</a>. If you are concerned about the price of board games, <a href="PnP.html">Print and Play</a> is always an option.
-    </p>
+  <h1>Dan Dobrick - Software Engineer</h1>
 
-    <h2>Different Genres and Examples of Games</h2>
-    <ul>
-      <li>
-        <strong>Deck Building</strong>
-        <ul>
-          <li>
-            Race for the Galaxy - Build a galactic civilization by playing cards that represent worlds or technological developments.
-          </li>
-          <li>
-            Ascension - Build fill your hand with heroes and runes in order to defeat monsters.
-          </li>
-        </ul>
-      </li>
-      <li>
-        <strong>4x (Explore, Expand, Exploit, Exterminate)</strong>
-        <ul>
-          <li>
-            Eclipse - Explore the galaxy and fight for your race to dominate the galactic core.
-          </li>
-          <li>
-            Civilization - Based on the best selling PC game, Civilization is a game where you build, explore and expand your civilization in order to become the largest and most powerful. (See image below)
-          </li>
-        </ul>
-      </li>
-
-      <li>
-        <strong>War Games</strong>
-        <ul>
-          <li>
-            Memior '44 - Battle against a friend using historical WWII scenarios.
-          </li>
-          <li>
-            War of The Ring -Play as either the fellowship or the forces of darkness in the world of J.R.R. Tolkien. (see image below)
-          </li>
-        </ul>
-      </li>
+  <div class="container">
+    <ul class="tabs">
+      <li class="active"><a href="#about">About Me</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
     </ul>
 
-    <h2>Photos</h2>
-    <div class="game-name">War of the Ring</div>
-    <img id="wotr" src="images/wotr.jpg" alt="War of the Ring" height="600" width="600">
-    <div class="game-name">Civilization</div>
-    <img id="civ" src="images/Civ.jpg" alt="Civilization" height="600" width="800">
-  </main>
-  <aside>
-    <h2>Interested? Learn more!</h2>
-    <p>
-      If you want more information please fill out the form below.
-    </p>
-    <form action ="success.html">
-      <div>
-        <label>Enter your full name: </label>
-        <br>
-        <input type="text" name="Full Name">
-      </div>
-      <div>
-        <label>Enter your email address: </label>
-        <br>
-        <input type="email" name="Email">
-      </div>
-      <div>
-        <label>How much do you know about board games?</label>
-        <br>
-        <input type="radio" name ="expierence" value="none"> I've only played Monopoly.<br>
-        <input type="radio" name ="expierence" value="Catan"> I've played Settlers of Catan.<br>
-        <input type="radio" name="expierence" value="gamer"> I play weekly or monthy<br>
-        <input type="radio" name ="expierence" value="game_geek"> I play Campaign for North Africa.
-      </div>
-      <button type="submit">Submit request!</button>
-    </form>
-  </aside>
+    <div class="tab-content" id="about">
+      <p>I am a software engineer who loves learning and creating, and I'm passionate about helping others do the same. Making websites allows me to create something that will affect people's lives in positive ways while also learning new things each day. Coming from teaching high school math, coding is how I keep the analytical part of my brain occupied while satisfying the need to solve a good puzzle.</p>
+    </div>
 
-  <section>
-    <h3>Comparison to Board Game Geek</h3>
-    <p>
-     <a href = "http://www.boardgamegeek.com/">BoardGameGeek.com</a> (BGG) is one of the largest websites dedicated to boardgames.<br>
-     I'm actually very surprised to see that most of the tags of BGG are ones that I'm using on this page; the exceptions being &lt;center&gt; and &lt;span&gt;. I guess this shouldn't surprise me much seeing BGG is notoriously ugly and outdated for how popular of a site that it is. I think this is due to the overuse of tables and text; it gives me a feeling of information overload and looks fairly cluttered.
-   </p>
- </section>
+    <div class="tab-content" id="resume">
+      <iframe src="https://resume.creddle.io/embed/j2xo6w2puax" width="850px" height="1100" seamless></iframe>
+      <p class='resume-link hidden'>Click <a href="https://resume.creddle.io/resume/j2xo6w2puax">here</a> to see my Resume.</p>
+    </div>
 
- <footer><a href="http://www.freetechbooks.com/a-first-course-in-electrical-and-computer-engineering-t1038.html"><em>New Dark Grey Background</em></a> used under <a href="https://creativecommons.org/licenses/by/3.0/us/">Creative Commons License</a></footer>
+    <div class="tab-content" id="portfolio">
+      <p><a href="https://github.com/DanDobrick/stagehand">Stagehand</a> (Github link): A CLI tool that allows users to position applications on their screen using a user-created yaml file. Written in golang and currently in active development</p>
+      <a href="https://github.com/DanDobrick/stagehand"><img src="assets/images/stagehand-code.png" alt="code snippet from stagehand" title="snippet of code available on Github"></a>
+      <hr>
 
+      <p>Team Lead on <a href="https://github.com/DanDobrick/spare-change">spareChange</a> (Github link): a Rails web app built in 8 days which allows users to round up each transaction to the nearest dollar and donate that amount to a charity of their choice.</p>
+      <a href="https://spare-change.herokuapp.com/"><img src="assets/images/spare-change.png" alt="spareChange Home" title="Heroku may take some time to load"></a>
+      <hr>
+
+      <p><a href="https://github.com/DanDobrick/shac">Shac</a> (Github link): Followed client specifications to build entire app from the ground up in 24 hours. Built for a hackathon put on by <a href='http://www.shac.io'>Shac</a>, this entry won first place.</p>
+      <p>Shac is web-app that helps students connect and sleep closer to campus. Students can choose to host other students or "crash" at a host's house/apartment/dorm then, the "crasher" can offer to exchange things such as walking the host's dog or buying the host coffee as a thank-you for allowing them to stay.</p>
+      <img src="assets/images/shac.png" alt="Home Page for shac">
+      <hr>
+
+      <a href="http://orghunter.com/"><img src="assets/images/OrgHunter-logo.png" alt="OrgHunter logo"></a>
+      <p><a href="https://github.com/DanDobrick/orghunter">Orghunter Gem</a> (Github link): A gem that wraps the <a href="http://orghunter.com/">OrgHunter</a> API. I began building this as a way to learn about gem development after graduating DBC. No longer in active development</p>
+    </div>
+  </div>
 </body>
 </html>
