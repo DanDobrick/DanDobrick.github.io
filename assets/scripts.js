@@ -8,7 +8,7 @@ $(document).ready(function () {
     $('.tabs').children().removeClass('active');
     $(this).parent().addClass('active');
     $(hash).show();
-    document.title = this.innerText + ' - ' + 'Daniel Dobrick - Software Engineer';
+    document.title = this.innerText + ' | ' + 'Dan Dobrick - Software Engineer';
   });
 
 });

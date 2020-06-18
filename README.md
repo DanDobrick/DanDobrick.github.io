@@ -1,8 +1,7 @@
 # dandobrick.com
 
-Repo to house the code + assets for dandobrick. This was written ~3 years ago and is desperate for an update.
+Repo to house the code + assets for [my personal website](https://dandobrick.com/). This was written in 2016 with minimal changes and is desperate for an update.
 
 # TODO:
-- Add mobile styling.
-- Update Portfolio.
+- Replace jquery with vanilla js
 - Add link to PDF resume instead of using iframe.
