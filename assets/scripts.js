@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  // TODO: Replace jquery with vanilla JS
 
   $('#about').show();
   $('.tabs').on('click','a', function(event){
@@ -10,5 +11,4 @@ $(document).ready(function () {
     $(hash).show();
     document.title = this.innerText + ' | ' + 'Dan Dobrick - Software Engineer';
   });
-
 });

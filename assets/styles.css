@@ -17,16 +17,19 @@ footer {
   padding-top: 15em;
 }
 
+footer a {
+  color: black;
+}
+
 h1 {
   text-align: center;
   padding: .5em;
   color: white;
-  background: #5E605D;
+  background: #616161;
   width: 50%;
   margin: auto;
   margin-top: 2em;
   margin-bottom: 2em;
-  border: 1px solid #605F5F;
   border-radius: 4px;
 }
 
