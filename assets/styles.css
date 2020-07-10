@@ -21,6 +21,14 @@ footer a {
   color: black;
 }
 
+footer a:visited {
+  color: black;
+}
+
+footer a:hover {
+  color: black;
+}
+
 h1 {
   text-align: center;
   padding: .5em;
