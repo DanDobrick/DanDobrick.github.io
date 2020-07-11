@@ -1,7 +1,8 @@
 # dandobrick.com
 
-Repo to house the code + assets for [my personal website](https://dandobrick.com/). This was written in 2016 with minimal changes and is desperate for an update.
+Repo to house the code + assets for [my personal website](https://dandobrick.com/). Cobbled together from 2016 code with some 2020 updates.
 
 # TODO:
-- Replace jquery with vanilla js
-- Add link to PDF resume instead of using iframe.
+- Stick footer to bottom
+- Add link to blog
+- clean up css
