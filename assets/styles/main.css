@@ -27,18 +27,6 @@ body {
   margin: auto;
 }
 
-footer a {
-  color: black;
-}
-
-footer a:visited {
-  color: black;
-}
-
-footer a:hover {
-  color: black;
-}
-
 h1 {
   text-align: center;
   padding: .5em;
@@ -76,23 +64,6 @@ p {
   margin-bottom: 20px;
 }
 
-iframe {
-  display: block;
-  width: 850px;
-  border: none;
-  margin: auto;
-  position: relative;
-}
-
-#pdf-resume{
-  display: block;
-  width: 850px;
-  height: 1100px;
-  border: none;
-  margin: auto;
-  position: relative;
-}
-
 .tab-content {
   display: block;
   background: white;
@@ -104,48 +75,6 @@ iframe {
   border-top: 2px solid white;
   border-radius: 4px;
   width: 100%;
-}
-
-.tabs {
-  float: left;
-  width: 100%;
-  margin-bottom: 0;
-  list-style: none;
-}
-
-.tabs li {
-  float: left;
-  margin-right: 1.5em;
-  padding: .7em 0em;
-  height: 19px;
-  line-height: 25px;
-  background: white;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-}
-
-.tabs li a {
-  color: #5E605D;
-  font-family: Helvetica, Arial, sans-serif;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 1em 2em;
-}
-
-.tabs li.active {
-  border: 1px solid #ccc;
-  border-bottom: 1px solid white;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  margin-bottom: -3px;
-  height: 20px;
-}
-
-.tabs li.active a {
-  color: black;
-  text-decoration: none;
-  border-bottom: none;
-  padding: .9em 2em;
 }
 
 .container {
@@ -164,10 +93,22 @@ iframe {
   margin: auto;
 }
 
+.mobile-header{
+  display: none;
+}
+
 @media only screen and (max-width: 500px) {
-    body {
-       background-image: url('images/mobile-ansel.jpeg'); 
-    }
+  body {
+      background-image: url('../images/mobile-ansel.jpeg'); 
+  }
+
+  .mobile-header{
+    display: block;
+  }
+
+  .desktop-header {
+    display: none;
+  }
 
     /* TODO: Add mobile-only styling */
 }
