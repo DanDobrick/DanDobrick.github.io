@@ -1,6 +1,6 @@
 body {
   background-color: #505050;
-  background-image: url('../images/ansel.jpeg'); 
+  background-image: url('../images/ansel.jpeg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -42,7 +42,9 @@ h1 {
   margin-bottom: 16px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
@@ -79,20 +81,16 @@ p {
   margin: auto;
 }
 
-.mobile-header{
+.mobile-header {
   display: none;
 }
 
-.mobile-apology{
-  display: none;
-}
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   body {
-      background-image: url('../images/mobile-ansel.jpeg'); 
+    background-image: url('../images/mobile-ansel.jpeg');
   }
 
-  .mobile-header{
+  .mobile-header {
     display: block;
   }
 
@@ -100,9 +98,11 @@ p {
     display: none;
   }
 
-  .mobile-apology {
-    display: block;
+  h2 {
+    text-align: center;
+  }
+
+  .container {
+    width: auto;
   }
 }
-
-
