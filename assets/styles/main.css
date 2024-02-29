@@ -85,7 +85,7 @@ p {
   display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   body {
     background-image: url('../images/mobile-ansel.jpeg');
   }
@@ -102,7 +102,8 @@ p {
     text-align: center;
   }
 
-  .container {
+  .container,
+  .content-container {
     width: auto;
   }
 }
