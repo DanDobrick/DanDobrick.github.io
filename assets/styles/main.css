@@ -27,6 +27,30 @@ body {
   margin: auto;
 }
 
+.blog-teaser {
+  font-family: Georgia, serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin: auto;
+  padding-left: 1.5em;
+  margin-bottom: 20px;
+}
+
+.blog-teaser li {
+  margin-bottom: 12px;
+}
+
+.blog-teaser a {
+  font-weight: bold;
+}
+
+.blog-teaser code {
+  font-family: monospace;
+  background: #f4f4f4;
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
 h1 {
   text-align: center;
   padding: .5em;
@@ -105,5 +129,6 @@ p {
   .container,
   .content-container {
     width: auto;
+    float: none;
   }
 }
